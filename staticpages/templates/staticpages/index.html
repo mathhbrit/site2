@@ -1,0 +1,18 @@
+
+{% extends 'base.html' %}
+{% block title %}
+Página Inicial
+{% endblock title %}
+
+{% block content %}
+<h1><i>Lista de Personagens</i></h1>
+<img src="https://images6.alphacoders.com/414/414002.png" alt="">
+<p>Pagina para testes do banco de dados</p>
+<p>testes de usuarios</p>
+<p>testes de posts</p>
+<ul>
+    {% for obj in Personagem %}
+    {% endfor %}
+</ul>
+{% endblock content %}
+

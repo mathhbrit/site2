@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Comentarios 
+{% endblock title %}
+
+{% block content %}
+<h1>Comentarios</h1>
+<h2>{{ personagem }}</h2>
+<img src="{{personagem.poster_url}}" alt="" width="500" height="900">
+<div class="comentarios">
+    {% for coment in reviews %}
+    <h3>{{coment.author}}</h3>
+    <p>Likes-({{coment.likes}})</p>
+    <p>{{coment.text}}</p>
+    {% endfor %}
+</div>
+
+
+{% endblock content %}

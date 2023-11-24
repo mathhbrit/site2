@@ -1,0 +1,52 @@
+
+body {
+    display: block;
+    background-color:blue;
+}
+
+header {
+    margin-bottom: -1%;
+    display: flex;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    margin: auto;
+    width:90%;
+    background-color: blue;
+}
+
+main {
+    margin-bottom: -1%;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+footer {
+    margin-top: 0%;
+    display: flex;
+    background-color:black;
+    justify-content: center;
+}
+
+footer p {
+    color: white;
+}
+
+nav ul li a {
+    cursor: pointer;
+    color:white;
+}
+
+.ListaP a {
+    margin-left: -15%;
+    margin-right: 15%;
+}
+
+.ListaP img {
+    height: 900px;
+    width: 500px;
+    margin-bottom: 2%;
+}
+
